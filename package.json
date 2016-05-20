@@ -1,0 +1,21 @@
+{
+  "name": "hire-me-form",
+  "version": "1.0.0",
+  "description": "Hire me form with JavaScript validation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohannBillar/.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "Form",
+    "Validation",
+    "Contact me"
+  ],
+  "author": "Johann Billar",
+  "license": "ISC"
+}
