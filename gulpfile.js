@@ -4,6 +4,9 @@ var gulp   = require('gulp'),
    compass = require('gulp-compass');
 
 var sassSources = ['components/sass-boilerplate/stylesheets/main.scss'];   
+var jsSources   = [
+  'components/scripts/form_validation.js'
+];
 
 gulp.task('log', function() {
   gutil.log('Workflow is working!');
@@ -19,3 +22,10 @@ gulp.task('compass', function() {
     .on('error', gutil.log))
     .pipe(gulp.dest('builds/development/css'));
 });
+
+gulp.task('js', function() {
+  gulp.src(jsSources)
+    .pipe(concat('script.js'))
+    .pipe(gulp.dest('builds/development/js'))
+});
+
