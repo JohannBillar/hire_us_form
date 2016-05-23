@@ -4,7 +4,7 @@
   "description": "Hire me form with JavaScript validation",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JohannBillar/.git"
+    "url": "git+https://github.com/JohannBillar/hire_us_form.git"
   },
   "main": "index.js",
   "scripts": {
@@ -14,11 +14,14 @@
     "JavaScript",
     "Form",
     "Validation",
-    "Contact me"
+    "Hire us"
   ],
   "author": "Johann Billar",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "util": "^0.10.3"
   }
 }
