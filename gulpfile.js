@@ -26,6 +26,13 @@ gulp.task('compass', function() {
 gulp.task('js', function() {
   gulp.src(jsSources)
     .pipe(concat('script.js'))
-    .pipe(gulp.dest('builds/development/js'))
+    .pipe(gulp.dest('builds/development/js'));
 });
+
+gulp.task('watch', function() {
+  gulp.watch(jsSources, ['js']);
+  gulp.watch('components/sass-boilerplate/stylesheets/**/*.scss', ['compass']);
+});
+
+gulp.task('default', ['log', 'js', 'compass', 'watch']);
 
