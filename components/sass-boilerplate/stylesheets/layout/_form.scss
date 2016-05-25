@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the hire us form of the site/application.
+// -----------------------------------------------------------------------------
+
+form {
+  .error {
+    color:red;
+    border:5px solid red;
+  }
+  .valid {
+    color:green;
+    border:5px solid green;
+  }
+}

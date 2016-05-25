@@ -488,3 +488,12 @@ body {
   position: absolute;
   width: 1px;
 }
+
+form .error {
+  color: red;
+  border: 5px solid red;
+}
+form .valid {
+  color: green;
+  border: 5px solid green;
+}
