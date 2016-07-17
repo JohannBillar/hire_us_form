@@ -1,3 +1,3 @@
 #VALID HIRE US FORM#
 
-Simple hire us form with JavaAcript validation
+Simple hire-us form with plain client-side JavaScript validation
