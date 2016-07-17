@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function init() {
   function nameValidation(input) {
     var nameRegExp    =  /^[a-zA-Z]+$/,
         maxNameLength = 50,
-        minNameLenght = 2;
+        minNameLength = 2;
 
-    if (input && input.length < maxNameLength && input.length > minNameLenght) 
+    if (input && input.length < maxNameLength && input.length > minNameLength) 
       return nameRegExp.test(input);
     else 
      return false;    

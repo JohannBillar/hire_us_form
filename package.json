@@ -1,12 +1,12 @@
 {
   "name": "hire-me-form",
   "version": "1.0.0",
-  "description": "Hire me form with JavaScript validation",
+  "description": "Hire-us-form with plain client-side JavaScript validation",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JohannBillar/hire_us_form.git"
   },
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +14,11 @@
     "JavaScript",
     "Form",
     "Validation",
-    "Hire us"
+    "Vanilla JS",
+    "Hire us",
+    "Client-side"
   ],
-  "author": "Johann Billar",
-  "license": "MIT",
+  "author": "Johann W Billar",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-compass": "^2.1.0",
