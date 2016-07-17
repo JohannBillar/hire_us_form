@@ -4,19 +4,19 @@ var gulp   = require('gulp'),
    compass = require('gulp-compass'),
    connect = require('gulp-connect');
 
-var sassSources = ['components/sass-boilerplate/stylesheets/main.scss'];   
+var sassSources = ['components/sass/stylesheets/main.scss'];   
 var jsSources   = [
   'components/scripts/form_validation.js'
 ];
 
 gulp.task('log', function() {
-  gutil.log('Workflow is working!');
+  gutil.log('Workflow is working :)');
 });
 
 gulp.task('compass', function() {
   gulp.src(sassSources)
     .pipe(compass({
-      sass: 'components/sass-boilerplate/stylesheets',
+      sass: 'components/sass/stylesheets',
       image: 'builds/development/images',
       style: 'expanded'
     })
@@ -34,7 +34,7 @@ gulp.task('js', function() {
 
 gulp.task('watch', function() {
   gulp.watch(jsSources, ['js']);
-  gulp.watch('components/sass-boilerplate/stylesheets/**/*.scss', ['compass']);
+  gulp.watch('components/sass/stylesheets/**/*.scss', ['compass']);
 });
 
 gulp.task('connect', function() {
